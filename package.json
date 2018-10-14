@@ -1,0 +1,46 @@
+{
+    "name": "Weather",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "@types/jest": "^22.2.3",
+        "@types/node": "^10.11.7",
+        "@types/react": "^16.3.10",
+        "@types/react-dom": "^16.0.5",
+        "@types/react-native": "^0.57.4",
+        "@types/react-test-renderer": "^16.0.1",
+        "concurrently": "^3.5.1",
+        "jest-expo": "26.0.0",
+        "react-native-scripts": "^2.0.1",
+        "react-test-renderer": "16.3.0-alpha.1",
+        "rimraf": "^2.6.2",
+        "ts-jest": "^22.4.2",
+        "tslint": "^5.9.1",
+        "typescript": "^3.0.0"
+    },
+    "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+    "scripts": {
+        "start": "react-native-scripts start",
+        "eject": "react-native-scripts eject",
+        "test": "jest",
+        "testWithCoverage": "jest --verbose --updateSnapshot --watch --coverage && open ./coverage/lcov-report/index.html",
+        "lint": "tslint src/**/*.ts",
+        "tsc": "tsc",
+        "clean": "rimraf build",
+        "build": "yarn run clean && yarn run tsc --",
+        "watch": "yarn run build -- -w",
+        "watchAndStart": "concurrently \"yarn run watch\" \"yarn run start\"",
+        "buildAndStart": "yarn run build && yarn run watchAndStart "
+    },
+    "jest": {
+        "preset": "jest-expo"
+    },
+    "dependencies": {
+        "@types/expo": "^27.0.13",
+        "expo": "^30.0.0",
+        "moment": "^2.22.2",
+        "react": "16.3.0-alpha.1",
+        "react-moment": "^0.8.1",
+        "react-native": "^0.55.4"
+    }
+}
