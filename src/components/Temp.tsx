@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, ScrollView } from 'react-native';
+import { Text, View } from 'react-native';
 import * as data from '../../weather.json';
 
 class Temp extends React.Component {
@@ -7,7 +7,7 @@ class Temp extends React.Component {
   render() {
       return (
       <View>
-        {console.log(this.props.data)}
+        {console.log(this.props)}
         <Text>{'ss'}</Text>
       </View>
     );

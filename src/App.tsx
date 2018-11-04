@@ -1,12 +1,15 @@
 import React from 'react';
-import HomeScreen from './components/Home';
-
+// import HomeScreen from './components/Home';
+import * as data from '../weather.json';
+import Temp from './components/Temp';
 export interface State {}
 
 class Main extends React.Component {
+
+  static defaultProps = data;
   render() {
     return (
-      <HomeScreen {...this.props} />
+    <Temp {...this.props} />
     );
   }
 }

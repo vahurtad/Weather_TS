@@ -6,7 +6,7 @@
         "@types/jest": "^22.2.3",
         "@types/node": "^10.11.7",
         "@types/react": "^16.3.10",
-        "@types/react-dom": "^16.0.5",
+        "@types/react-dom": "^16.0.9",
         "@types/react-native": "^0.57.4",
         "@types/react-test-renderer": "^16.0.1",
         "concurrently": "^3.5.1",
@@ -39,8 +39,9 @@
         "@types/expo": "^27.0.13",
         "expo": "^30.0.0",
         "moment": "^2.22.2",
-        "react": "16.3.0-alpha.1",
-        "react-animated-weather": "^2.0.0",
+        "prop-types": "^15.6.2",
+        "react": "^16.6.0",
+        "react-dom": "^16.6.0",
         "react-moment": "^0.8.1",
         "react-native": "^0.55.4"
     }

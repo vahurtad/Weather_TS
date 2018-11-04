@@ -3,10 +3,10 @@ import { StyleSheet, View } from 'react-native';
 import { MonoText } from '../components/StyledText';
 import { WeatherElement } from '../boot/WeatherProps';
 import moment from 'moment';
-export interface State {}
 
 const Weather = (props: WeatherProps) => {
   const { container, horizontal } = styles;
+
   return (
     <View style={container}>
       <View key={props.weather.id} style={horizontal}>

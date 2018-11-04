@@ -28,6 +28,10 @@
     "react-dom",
     "react-native"
   ],
+  "typeRoots":[
+    "../node_modules/@types",
+    "../@types"
+  ],
   "exclude":[
       "build", 
       "node_modules",

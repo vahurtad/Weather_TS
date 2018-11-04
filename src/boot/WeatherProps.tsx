@@ -5,9 +5,9 @@
 //   "Set quicktype target language"
 
 export default interface Weather {
-    city: City;
-    time: number;
-    data: Datum[];
+    city?: City;
+    time?: number;
+    data?: Datum[];
 }
 
 export interface City {
