@@ -1,9 +1,9 @@
 {
   "expo": {
     "sdkVersion": "30.0.0",
-    "icon": "./src/assets/images/icon.png",
+    "icon": "./src/assets/images/app_launcher.png",
     "splash": {
-      "image": "./src/assets/images/splash.png",
+      "image": "./src/assets/images/new_splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     }
